@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surya Fittness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css reset */
+  
+    body {
+        color: white;
+        /* margin: 0px; */
+        /* padding: 0px; */
+        
+        background: url('img/fit1.jpg');
+      
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 12px;
+        top: 40px;
+
+    }
+
+    .mid {
+        display: block;
+        width: 60%;
+        margin: 40px auto;
+        /* border: 1px solid yellow; */
+        /* top: 20px; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 40px;
+        display: inline-block;
+        /* border: 2px solid blue; */
+
+    }
+
+    .navbar {}
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+        padding: 20px 10px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: white;
+
+    }
+
+    .left img {
+        height: 92px;
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .btn {
+        background-color: white;
+        border: 2px solid indianred;
+        border-radius: 6px;
+        padding: 4px 14px;
+        font-size: 10px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: violet;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 110px 82px;
+        padding: 5px 60px;
+        width: 33%;
+        border-radius: 4px;
+    }
+    .form-action input{
+        text-align: center;
+        display: block;
+        border: 3px solid orange;
+        padding: 16px 20px;
+        border-radius: 4px;
+        width: 20px 20px;
+        margin: 4px auto;
+    }
+    .container.h1{
+        /* text-align: center; */
+    }
+    .container button{
+        display: block;
+        width: 23%;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <!-- <div class="img1">
+        <img src="img/fit.jpg" alt="">
+    </div> -->
+    <header class="header">
+        <div class="left">
+
+            <!-- this is for logo -->
+            <img src="img/logo.jpg" alt="">
+            <div>Surya FittNess</div>
+        </div>
+        <div class="mid">
+            <!-- this is for navigation -->
+            <ul class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Fittness caluclator</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+
+            <!-- this is for buttons -->
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym</h1>
+        <form action="noaction.java">
+            <div class="form-action">
+                <input type="text" placeholder="Enter your Name">
+            </div>
+            <div class="form-action">
+                <input type="text" placeholder="Enter your Age">
+            </div>
+            <div class="form-action">
+                <input type="text" placeholder="Enter your Gender">
+            </div>
+            <div class="form-action">
+                <input type="text" placeholder="Enter your Location">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
